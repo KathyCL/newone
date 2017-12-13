@@ -1,0 +1,6 @@
+
+<div class='menu-header'>红包</div>
+<ul>
+    <li {if $_W['action']==''}class="active"{/if}><a href="{php echo webUrl('hb')}">发送红包</a></li>
+    <li {if $_W['action']=='adv'}class="active"{/if}><a href="{php echo webUrl('hb/adv')}">广告管理</a></li>
+</ul>

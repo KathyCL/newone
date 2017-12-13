@@ -1,0 +1,1350 @@
+2017-12-09 10:05:34 $code :
+------------
+String:
+27999
+
+2017-12-09 10:08:46 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 10:08:46 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:08:46 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 10:08:46 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:09:04 $code :
+------------
+String:
+87144
+
+2017-12-09 10:10:40 $code :
+------------
+String:
+59477
+
+2017-12-09 10:10:50 $code :
+------------
+String:
+82227
+
+2017-12-09 10:12:17 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 10:12:17 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:12:17 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 10:12:17 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:13:36 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 10:13:36 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:13:36 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 10:13:36 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:14:31 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 10:14:31 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 10:14:31 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 10:14:31 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 13:50:57 $code :
+------------
+String:
+62292
+
+2017-12-09 17:13:29 $code :
+------------
+String:
+25346
+
+2017-12-09 17:16:04 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 17:16:04 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 17:16:04 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 17:16:04 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 17:58:21 $code :
+------------
+String:
+15248
+
+2017-12-09 17:58:48 $code :
+------------
+String:
+13071
+
+2017-12-09 18:01:09 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 18:01:09 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 18:01:09 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 18:01:09 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 18:10:33 $code :
+------------
+String:
+20362
+
+2017-12-09 18:13:46 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 18:13:46 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 18:13:46 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 18:13:46 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 18:14:57 $code :
+------------
+String:
+22868
+
+2017-12-09 18:17:17 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 18:17:17 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 18:17:17 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 18:17:17 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 18:59:38 $code :
+------------
+String:
+63879
+
+2017-12-09 19:00:34 $code :
+------------
+String:
+60468
+
+2017-12-09 19:03:00 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 19:03:00 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 19:03:00 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 19:03:00 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 19:03:02 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 19:03:02 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 19:03:02 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 19:03:02 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 19:21:40 $code :
+------------
+String:
+61613
+
+2017-12-09 19:32:04 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 19:32:04 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 19:32:04 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 19:32:04 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 19:32:49 $code :
+------------
+String:
+76612
+
+2017-12-09 20:19:33 $code :
+------------
+String:
+67834
+
+2017-12-09 20:21:35 $code :
+------------
+String:
+10666
+
+2017-12-09 20:24:49 $code :
+------------
+String:
+44486
+
+2017-12-09 20:26:49 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 20:26:49 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:26:49 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 20:26:49 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:28:56 $code :
+------------
+String:
+62438
+
+2017-12-09 20:30:08 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 20:30:08 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:30:08 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 20:30:08 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:30:32 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 20:30:32 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:30:32 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 20:30:32 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:33:54 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 20:33:54 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:33:54 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 20:33:54 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:49:29 $code :
+------------
+String:
+86449
+
+2017-12-09 20:52:14 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 20:52:14 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:52:14 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 20:52:14 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:55:38 $code :
+------------
+String:
+42842
+
+2017-12-09 20:58:08 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 20:58:08 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 20:58:08 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 20:58:08 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:03:15 $code :
+------------
+String:
+36600
+
+2017-12-09 21:05:44 $code :
+------------
+String:
+28479
+
+2017-12-09 21:06:04 $code :
+------------
+String:
+45228
+
+2017-12-09 21:07:34 $code :
+------------
+String:
+52104
+
+2017-12-09 21:08:12 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 21:08:12 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:08:12 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 21:08:12 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:09:59 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 21:09:59 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:09:59 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 21:09:59 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:11:40 $code :
+------------
+String:
+64067
+
+2017-12-09 21:14:16 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 21:14:16 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:14:16 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 21:14:16 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:20:13 $code :
+------------
+String:
+44086
+
+2017-12-09 21:22:37 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 21:22:37 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:22:37 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 21:22:37 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:23:07 $code :
+------------
+String:
+62369
+
+2017-12-09 21:26:29 $code :
+------------
+String:
+99135
+
+2017-12-09 21:28:35 $m1memberlevel :
+------------
+Array:
+id : 6 ;
+uniacid : 5 ;
+level : 2 ;
+levelname : 产品推广员 ;
+ordermoney : 199.00 ;
+ordercount : 0 ;
+discount : 4.00 ;
+enabled : 1 ;
+enabledadd : 0 ;
+buygoods : 0 ;
+goodsids : N; ;
+
+2017-12-09 21:28:35 $agentDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+
+2017-12-09 21:28:35 $memberlevel :
+------------
+Array:
+levelname : 普通会员 ;
+discount : 10 ;
+
+2017-12-09 21:28:35 $memberDiscountPrice :
+------------
+Array:
+unitprice : 0 ;
+price : 0 ;
+taskdiscountprice : 0 ;
+lotterydiscountprice : 0 ;
+discounttype : 0 ;
+isdiscountprice : 0 ;
+discountprice : 0 ;
+isdiscountunitprice : 0 ;
+discountunitprice : 0 ;
+price0 : 0 ;
+price1 : 0 ;
+price2 : 89 ;
+buyagainprice : 0 ;
+

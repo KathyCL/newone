@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d6a505f-0033-49bc-bc71-3a6b004041b5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.mod.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/model/app.mod.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <marker date="1464770800000" expanded="true" signature="563:802" ph="SELECT id,na... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ctrl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1281">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/framework/class/db.class.php" />
+        <option value="$PROJECT_DIR$/data/config.php" />
+        <option value="$PROJECT_DIR$/addons/ewei_shopv2/pcsite/controller/login.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tb999822" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tb999822" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tb999822" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tb999822" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/new" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d6a505f-0033-49bc-bc71-3a6b004041b5" name="Default" comment="" />
+      <created>1513134312482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513134312482</updated>
+      <workItem from="1513134317649" duration="7341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7341000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/source/paycenter/wxmicro.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1478652776000" expanded="true" signature="6970:7097" ph="SELECT * FRO... ${tablename('paycenter_order')}" />
+            <marker date="1478652776000" expanded="true" signature="7215:7387" ph="SELECT credi... ${tablename('paycenter_order')}" />
+            <marker date="1478652776000" expanded="true" signature="7573:7739" ph="SELECT cash ${tablename('paycenter_order')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/ewei_shopv2/plugin/app/core/mobile/order/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <marker date="1504354228000" expanded="true" signature="1762:1985" ph="select id,ti... ${tablename('ewei_shop_gift')}" />
+            <marker date="1504354228000" expanded="true" signature="2225:2388" ph="select id,ti... ${tablename('ewei_shop_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="3206:3319" ph="SELECT * FRO... ${tablename('ewei_shop_bargain_actor')}" />
+            <marker date="1504354228000" expanded="true" signature="3499:3605" ph="SELECT * FRO... ${tablename('ewei_shop_bargain_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="3727:3821" ph="SELECT barga... ${tablename('ewei_shop_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="7632:7819" ph="select id,ti... ${tablename('ewei_shop_goods_option')}" />
+            <marker date="1504354228000" expanded="true" signature="9859:10110" ph="select ifnul... ${tablename('ewei_shop_order_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="11008:11145" ph="select invoi... ${tablename('ewei_shop_order')}" />
+            <marker date="1504354228000" expanded="true" signature="12184:12350" ph="select * fro... ${tablename('ewei_shop_merch_store')}" />
+            <marker date="1504354228000" expanded="true" signature="12468:12607" ph="select * fro... ${tablename('ewei_shop_store')}" />
+            <marker date="1504354228000" expanded="true" signature="14974:15105" ph="select * fro... ${tablename('ewei_shop_merch_store')}" />
+            <marker date="1504354228000" expanded="true" signature="15219:15323" ph="select * fro... ${tablename('ewei_shop_store')}" />
+            <marker date="1504354228000" expanded="true" signature="15435:15609" ph="select * fro... ${tablename('ewei_shop_merch_store')}" />
+            <marker date="1504354228000" expanded="true" signature="15720:15867" ph="select * fro... ${tablename('ewei_shop_store')}" />
+            <marker date="1504354228000" expanded="true" signature="15955:16095" ph="select * fro... ${tablename('ewei_shop_member_address')}" />
+            <marker date="1504354228000" expanded="true" signature="19538:19718" ph="select giftg... ${tablename('ewei_shop_gift')}" />
+            <marker date="1504354228000" expanded="true" signature="19914:20076" ph="select id as... ${tablename('ewei_shop_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="20289:20559" ph="select id,go... ${tablename('ewei_shop_gift')}" />
+            <marker date="1504354228000" expanded="true" signature="20766:20899" ph="select id,ti... ${tablename('ewei_shop_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="22931:23026" ph="SELECT * FRO... ${tablename('ewei_shop_package')}" />
+            <marker date="1504354228000" expanded="true" signature="23434:23592" ph="select id,ti... ${tablename('ewei_shop_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="23726:23963" ph="select title... ${tablename('ewei_shop_package_goods_option')}" />
+            <marker date="1504354228000" expanded="true" signature="24096:24284" ph="select title... ${tablename('ewei_shop_package_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="24929:25069" ph="select * fro... ${tablename('ewei_shop_member_address')}" />
+            <marker date="1504354228000" expanded="true" signature="29152:29404" ph="SELECT d.id,... ${tablename('ewei_shop_coupon_data')}" />
+            <marker date="1504354228000" expanded="true" signature="37678:37799" ph="select * fro... ${tablename('ewei_shop_member_address')}" />
+            <marker date="1504354228000" expanded="true" signature="40067:40248" ph="select id,ti... ${tablename('ewei_shop_goods_option')}" />
+            <marker date="1504354228000" expanded="true" signature="47562:47791" ph="SELECT id,ti... ${tablename('ewei_shop_package')}" />
+            <marker date="1504354228000" expanded="true" signature="48109:48313" ph="SELECT id,ti... ${tablename('ewei_shop_package_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="48872:48994" ph="select * fro... ${tablename('ewei_shop_member_address')}" />
+            <marker date="1504354228000" expanded="true" signature="50486:50666" ph="select giftg... ${tablename('ewei_shop_gift')}" />
+            <marker date="1504354228000" expanded="true" signature="50858:51020" ph="select id as... ${tablename('ewei_shop_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="53846:54097" ph="select ifnul... ${tablename('ewei_shop_order_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="55519:55700" ph="select id,ti... ${tablename('ewei_shop_goods_option')}" />
+            <marker date="1504354228000" expanded="true" signature="56226:56445" ph="select packa... ${tablename('ewei_shop_package_goods_option')}" />
+            <marker date="1504354228000" expanded="true" signature="56974:57153" ph="select packa... ${tablename('ewei_shop_package_goods')}" />
+            <marker date="1504354228000" expanded="true" signature="57669:57876" ph="select id,di... ${tablename('ewei_shop_member_cart')}" />
+            <marker date="1504354228000" expanded="true" signature="65003:65118" ph="select count... ${tablename('ewei_shop_order')}" />
+            <marker date="1504354228000" expanded="true" signature="65584:65741" ph="select count... ${tablename('ewei_shop_order')}" />
+            <marker date="1504354228000" expanded="true" signature="66260:66375" ph="select count... ${tablename('ewei_shop_order')}" />
+            <marker date="1504354228000" expanded="true" signature="67279:67373" ph="SELECT * FRO... ${tablename('ewei_shop_bargain_actor')}" />
+            <marker date="1504354228000" expanded="true" signature="79284:79434" ph="SELECT id as... ${tablename('ewei_shop_goods')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1928">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475975364000" expanded="true" signature="760:835" ph="SELECT * FRO... ${tablename('site_multi')}" />
+            <marker date="1475975364000" expanded="true" signature="1055:1112" ph="SELECT * FRO... ${tablename('site_styles')}" />
+            <marker date="1475975364000" expanded="true" signature="1401:1520" ph="SELECT `vari... ${tablename('site_styles_vars')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/common.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475975366000" expanded="true" signature="2803:2912" ph="SELECT `fani... ${tablename('mc_mapping_fans')}" />
+            <marker date="1475975366000" expanded="true" signature="4319:5184" ph="..." />
+            <marker date="1475975366000" expanded="true" signature="4499:5145" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/class/db.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <marker date="1513135749424" expanded="true" signature="4841:4979" ph="SELECT ${{$s... " />
+            <marker date="1513135749424" expanded="true" signature="5865:5887" ph="SELECT ${{$s... " />
+            <marker date="1513135749424" expanded="true" signature="6882:6904" ph="SELECT ${{$s... " />
+            <marker date="1513135749424" expanded="true" signature="7106:7127" ph="SELECT COUNT... ${tablename($tablename)}" />
+            <marker date="1513135749424" expanded="true" signature="8447:8459" ph="DELETE FROM ${$this-&gt;tablename($table)}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464257192000" expanded="true" signature="287:355" ph="SELECT * FRO... ${tablename('site_multi')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3078">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3689">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476319508000" expanded="true" signature="1296:1366" ph="SELECT `pass... ${tablename('users')}" />
+            <marker date="1476319508000" expanded="true" signature="2417:2472" ph="SELECT * FRO... ${tablename('users')}" />
+            <marker date="1476319508000" expanded="true" signature="3021:3098" ph="SELECT busin... ${tablename('activity_stores')}" />
+            <marker date="1476319508000" expanded="true" signature="5120:5211" ph="SELECT * FRO... ${tablename('users_permission')}" />
+            <marker date="1476319508000" expanded="true" signature="5542:5603" ph="SELECT * FRO... ${tablename('users_group')}" />
+            <marker date="1476319508000" expanded="true" signature="5857:6167" ph="SELECT COUNT... uniacid" />
+            <marker date="1476319508000" expanded="true" signature="5879:6071" ph="SELECT u.uni... ${tablename('uni_account_users')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/site.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <marker date="1464770802000" expanded="true" signature="476:571" ph="SELECT * FRO... ${tablename('cover_reply')}" />
+            <marker date="1464770802000" expanded="true" signature="1003:1087" ph="DELETE FROM ${tablename('rule_keyword')}... " />
+            <marker date="1464770802000" expanded="true" signature="2054:2164" ph="SELECT * FRO... ${tablename('cover_reply')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/library/ftp/ftp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/source/entry/__init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/source/activity/goods.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475975332000" expanded="true" signature="530:745" ph="SELECT id,ti... ${tablename('activity_exchange')}" />
+            <marker date="1475975332000" expanded="true" signature="4501:4593" ph="SELECT COUNT... ${tablename('activity_exchange_trades_shipping')}" />
+            <marker date="1475975332000" expanded="true" signature="4661:4971" ph="SELECT a.*, ${tablename('activity_exchange_trades_shipping')}" />
+            <marker date="1475975332000" expanded="true" signature="5318:5420" ph="SELECT tid F... ${tablename('activity_exchange_trades_shipping')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/source/home/page.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/source/home/home.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1465958618000" expanded="true" signature="510:633" ph="SELECT title... ${tablename('cover_reply')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/ewei_shopv2/pcsite/controller/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/app.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1464770800000" expanded="true" signature="563:802" ph="SELECT id,na... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
