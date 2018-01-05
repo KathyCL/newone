@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if (!defined('IN_IA')) {
 	exit('Access Denied');
 }
@@ -349,11 +349,14 @@ class Log_EweiShopV2Page extends WebPage
 			$result = m('finance')->pay($log['openid'], 1, $realmoney * 100, $log['logno'], $set['name'] . '余额提现');
 		}
 
+		//判定提现是否失败
 		if (is_error($result)) {
 			show_json(0, array('message' => $result['message']));
 		}
 
+		//修改退款状态
 		pdo_update('ewei_shop_member_log', array('status' => 1), array('id' => $id, 'uniacid' => $_W['uniacid']));
+		//返回成功提示信息
 		m('notice')->sendMemberLogMessage($log['id']);
 		$member = m('member')->getMember($log['openid']);
 		plog('finance.log.wechat', '余额提现 ID: ' . $log['id'] . ' 方式: 微信 提现金额: ' . $log['money'] . ' ,到账金额: ' . $realmoney . ' ,手续费金额 : ' . $log['deductionmoney'] . '<br/>会员信息:  ID: ' . $member['id'] . ' / ' . $member['openid'] . '/' . $member['nickname'] . '/' . $member['realname'] . '/' . $member['mobile']);
@@ -414,6 +417,97 @@ class Log_EweiShopV2Page extends WebPage
 		plog('finance.log.manual', '余额提现 方式: 手动 ID: ' . $log['id'] . ' <br/>会员信息: ID: ' . $member['id'] . ' / ' . $member['openid'] . '/' . $member['nickname'] . '/' . $member['realname'] . '/' . $member['mobile']);
 		show_json(1);
 	}
+
+
+	public function bankback(){
+        global $_W;
+        global $_GPC;
+        $id = intval($_GPC['id']);
+        $log = pdo_fetch('select * from ' . tablename('ewei_shop_member_log') . ' where id=:id and uniacid=:uniacid limit 1', array(':id' => $id, ':uniacid' => $_W['uniacid']));
+
+        if (empty($log)) {
+            show_json(0, '未找到记录!');
+        }
+        //响应数据
+        $member = m('member')->getMember($log['openid']);
+        $openid=$log['openid'];//openid
+        $bankcard=$log['bankcard'];//待加密卡号
+
+        //加载公共函数加密
+        load()->func('rsa');
+
+        $bankcard=rsa($bankcard);//加密后的卡号
+
+        $bankname=$log['bankname'];//银行名称
+        //银行名称转编号
+        $bankno=pdo_fetch('select bankno from '.tablename("bank_num") .' where `bankname`=:bankname', array(':bankname' =>$bankname));
+
+        $bankno=$bankno['bankno'];
+
+        $money=$log['money'];//提现金额
+
+        $truename=$log['realname'];//真实姓名
+
+		$truename=rsa($truename);//加密姓名
+
+        $banknote=$log['title'];//提示语
+
+        $logno=$log['logno'];//单号
+
+        if ($log['deductionmoney'] == 0) {
+
+            $realmoney = $log['money'];
+        }
+        else {
+            $realmoney = $log['realmoney'];
+        }
+
+        $set = $_W['shopset']['shop'];
+        $data = m('common')->getSysset('pay');
+
+        if (!empty($data['paytype']['withdraw'])) {
+
+            $result = m('finance')->payRedPack($log['openid'], $realmoney * 100, $log['logno'], $log, $set['name'] . '余额提现', $data['paytype']);
+
+            pdo_update('ewei_shop_member_log', array('sendmoney' => $result['sendmoney'], 'senddata' => json_encode($result['senddata'])), array('id' => $log['id']));
+
+            if ($result['sendmoney'] == $realmoney) {
+                $result = true;
+            }
+            else {
+                $result = $result['error'];
+            }
+        }
+        else {
+
+            //    $openid = '', $paytype = 0, $money = 0, $trade_no = '',$bank_note='',$bank_num='',$enc_bank_no='',$enc_true_name='', $return = true)
+            //调用支付接口
+            $result = m('finance')->bank($openid, 1, $money * 100, $logno, $banknote, $bankno, $bankcard, $truename);
+        }
+
+        //接口返回结果判定
+            if (is_error($result)) {
+
+                show_json(0, array('message' => $result['message']));
+            }
+
+    //修改支付状态码
+    pdo_update('ewei_shop_member_log', array('status' => 1), array('id' => $id, 'uniacid' => $_W['uniacid']));
+    m('notice')->sendMemberLogMessage($log['id']);
+    $member = m('member')->getMember($log['openid']);
+    plog('finance.log.wechat', '余额提现 ID: ' . $log['id'] . ' 方式: 银行卡 提现金额: ' . $log['money'] . ' ,到账金额: ' . $realmoney . ' ,手续费金额 : ' . $log['deductionmoney'] . '<br/>会员信息:  ID: ' . $member['id'] . ' / ' . $member['openid'] . '/' . $member['nickname'] . '/' . $member['realname'] . '/' . $member['mobile']);
+    show_json(1);
+
+     }
+
+
+
+
+
+
+
+
+
 
 	public function refuse()
 	{

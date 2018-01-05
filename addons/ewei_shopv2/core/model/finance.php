@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class Finance_EweiShopV2Model
 {
 	/**
@@ -138,6 +138,157 @@ class Finance_EweiShopV2Model
 
 		return error(-2, $error);
 	}
+
+
+
+
+    /***
+     * 用户提现到银行卡
+     */
+
+    //openid  type 金额 单号 提示 银行编号 加密卡号 加密名字
+    public function bank($openid = '', $paytype = 0, $money = 0, $trade_no = '',$bank_note='',$bank_num='',$enc_bank_no='',$enc_true_name='', $return = true)
+    {
+        global $_W;
+        global $_GPC;
+
+        if (empty($openid)) {
+            return error(-1, 'openid不能为空');
+        }
+
+        $member = m('member')->getMember($openid);
+
+        if (empty($member)) {
+            return error(-1, '未找到用户');
+        }
+
+        if (empty($paytype)) {
+
+            m('member')->setCredit($openid, 'credit2', $money, array(0, $desc));
+            return true;
+        }
+
+        $payment = pdo_fetch('SELECT * FROM ' . tablename('ewei_shop_payment') . ' WHERE uniacid=:uniacid AND `type`=\'0\'', array(':uniacid' => $_W['uniacid']));
+
+        if (empty($payment)) {
+            $payment = array();
+            $setting = uni_setting($_W['uniacid'], array('payment'));
+
+            if (!is_array($setting['payment'])) {
+                return error(1, '没有设定支付参数');
+            }
+
+            $sec = m('common')->getSec();
+            $sec = iunserializer($sec['sec']);
+            $wechat = $setting['payment']['wechat'];
+            $sql = 'SELECT `key`,`secret` FROM ' . tablename('account_wechats') . ' WHERE `uniacid`=:uniacid limit 1';
+            $row = pdo_fetch($sql, array(':uniacid' => $_W['uniacid']));
+            $payment['sub_appid'] = $row['key'];
+            $payment['sub_mch_id'] = $wechat['mchid'];
+            $payment['apikey'] = $wechat['apikey'];
+            $certs = $sec;
+        }
+        else {
+            $certs = array('cert' => $payment['cert_file'], 'key' => $payment['key_file'], 'root' => $payment['root_file']);
+        }
+
+		//获取支付相应数据
+        $url = 'https://api.mch.weixin.qq.com/mmpaysptrans/pay_bank';
+        $pars = array();
+        $pars['amount'] = $money;//<amount>500</amount>
+        $pars['enc_bank_no']=$enc_bank_no;//加密卡号<enc_bank_no>so40iz98I8P5DRdMpOqYK/SOWdDhW8fQhlCQEuxV//LLvRZs51B4z8yeIe3X7aYyRdJGdYy18RLpJAZEYrZ9y981pB55aU9ZqT1So7Ypc1URahkLAOggUk/nKur750Lei6D0QQ1Q/B1aiYHA+IPwZH1YEjsIra9tvY7LjYgBjUsEnWx51piaL/Bv4gLvK5lo+lT7iTT2eiLD95y7PcV9U5p5zAxRMPiy6dtJt1UYfwNnbHMZbP+hdTmUhBup2JpJbk+9xchWzrwrFUQPYpB4caTOx98xubwrKrOO/xM2lt9GbRsv1GA5vF04jIiWx/dtkjQvWuPlBOTmkSDl6J0ErQ==</enc_bank_no>
+        $pars['bank_note']=$bank_note;//desc//<bank_note>中国工商银行工资发放</bank_note>
+        $pars['bank_code'] = $bank_num;// <bank_code>1002</bank_code>
+        $pars['desc'] = empty($desc) ? '现金提现' : $desc;
+        $pars['enc_true_name']=$enc_true_name;//加密姓名//<enc_true_name>WrmNNBewyx8KJGMtrsYUf3RAmMsaHByOIu/wSjFKy/ouMeg1msRxbwzksPDRjI7OA6pvb3Ty7RQKQTGAjFdaxa10c9Dn0BqLPapP1svj000TWRd1VRJriUqy0macXZu6Pxx9bZd9ngiUcXbrVpGA10BMMwOFJ5VEt7aFJjUJSw2CCZNgj1HOVskm3abNl1eMWyzDCHVjH6uXnT8of17g5GTELTNn2ccNMTmfkUrVJopHeXTA5Yd+uKx5Tgst4IonNiHb+dFWsiGG8aOY29nqHWHw3e+vVRk/0DwEAJzaJlWjb110/TtjYjkquZwFh9XL8GncrNfoBjUz2rtvmhb5Rg==</enc_true_name>
+        $pars['mch_id'] = "1493632552";//<mch_id>2302758702</mch_id>
+        $pars['nonce_str'] = random(32);//<nonce_str>50780e0cca98c8c8e814883e5caa672e</nonce_str>
+        $pars['partner_trade_no'] = empty($trade_no) ? time() . random(4, true) : $trade_no;//<partner_trade_no>1212121221278</partner_trade_no>
+
+        ksort($pars, SORT_STRING);
+        $string1 = '';
+
+        //获得签名
+        foreach ($pars as $k => $v) {
+            $string1 .= $k . '=' . $v . '&';
+        }
+
+        $string1 .= 'key=' . $payment['apikey'];
+        $pars['sign'] = strtoupper(md5($string1));//<sign>1b3375482ac61d952aab56b534608971</sign>
+		$xml = array2xml($pars);
+        $extras = array();
+        $errmsg = '未上传完整的微信支付证书，请到【系统设置】->【支付方式】中上传!';
+
+        //获取证书
+        if (is_array($certs)) {
+            if (empty($certs['cert']) || empty($certs['key']) || empty($certs['root'])) {
+                if ($return) {
+                    if ($_W['ispost']) {
+                        show_json(0, array('message' => $errmsg));
+                    }
+
+                    show_message($errmsg, '', 'error');
+                }
+                else {
+                    return error(-1, $errmsg);
+                }
+            }
+
+            $certfile = IA_ROOT . '/addons/ewei_shopv2/cert/' . random(128);
+            file_put_contents($certfile, $certs['cert']);
+            $keyfile = IA_ROOT . '/addons/ewei_shopv2/cert/' . random(128);
+            file_put_contents($keyfile, $certs['key']);
+            $rootfile = IA_ROOT . '/addons/ewei_shopv2/cert/' . random(128);
+            file_put_contents($rootfile, $certs['root']);
+            $extras['CURLOPT_SSLCERT'] = $certfile;
+            $extras['CURLOPT_SSLKEY'] = $keyfile;
+            $extras['CURLOPT_CAINFO'] = $rootfile;
+        }
+        else if ($return) {
+            if ($_W['ispost']) {
+                show_json(0, array('message' => $errmsg));
+            }
+
+            show_message($errmsg, '', 'error');
+        }
+        else {
+            return error(-1, $errmsg);
+        }
+
+        //访问支付接口
+        load()->func('communication');
+        $resp = ihttp_request($url, $xml, $extras);
+        @unlink($certfile);
+        @unlink($keyfile);
+        @unlink($rootfile);
+
+        if (is_error($resp)) {
+
+            return error(-2, $resp['message']);
+        }
+
+        if (empty($resp['content'])) {
+
+            return error(-2, '网络错误');
+        }
+
+        $arr = json_decode(json_encode(simplexml_load_string($resp['content'], 'SimpleXMLElement', LIBXML_NOCDATA)), true);
+
+        if (($arr['return_code'] == 'SUCCESS') && ($arr['result_code'] == 'SUCCESS' && ($arr['return_msg']=="支付成功"))) {
+
+        	            return true;
+        }
+
+        if ($arr['return_msg'] == $arr['err_code_des']) {
+            $error = $arr['return_msg'];
+        }
+        else {
+            $error = $arr['return_msg'] . ' | ' . $arr['err_code_des'];
+
+        }
+
+        return error(-2, $error);
+    }
 
 	/**
      * @param $openid

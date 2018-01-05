@@ -16,14 +16,17 @@
         <span class="label">全部商品</span>
     </a>
     {/if}
-    
+
+
+   {php $level = m('member')->getLevel($_W['openid']);if($level['id']>0){}
     {if !empty($commission)}
     <a href="{$commission['url']}" class="external nav-item {if $_W['routes']=='commission.register'}active{/if}">
         <span class="icon icon-fenxiao2"></span>
         <span class="label">{$commission['text']}</span>
+       
     </a>
     {/if}
-    
+   {php };}
     <a href="{php echo mobileUrl('member/cart')}" class="external nav-item {if $_W['routes']=='member.cart'}active{/if}" id="menucart">
         <span class="icon icon-cart"></span>
         <span class="label">购物车</span>

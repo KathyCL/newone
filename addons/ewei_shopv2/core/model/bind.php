@@ -14,7 +14,7 @@ class Bind_EweiShopV2Model
                 $agents = pdo_fetchall('select * from '.tablename('ewei_shop_member').' where uniacid=:uniacid and agentid=:agentid order by id desc',array(':uniacid'=>$_W['uniacid'], ':agentid'=>$memberagent['id']),'id');
                 $agentcount = count($agents);
                 $hadextend = $agentcount%30;
-                if($hadextend==0){
+/*                if($hadextend==0){
                     //每推广30用户无新增订单限制推广
                     $agentids = implode(',',array_slice(array_keys($agents),0,29));
                     $ordercount = pdo_fetchcolumn('select count(*) from '.tablename('ewei_shop_order').' where agentid in('.$agentids.')');
@@ -28,7 +28,7 @@ class Bind_EweiShopV2Model
                     //发送通知 已经完成XX名还剩XX名
                     $message = '你的推广任务已经完成'.$hadextend.'名还剩'.(30-$hadextend).'名，请及时提醒客户付邮体验产品，以便获取更多推广资格！';
                     m('notice')->sendCheckAgentMessage($message,$memberagent['openid']);
-                }
+                }*/
 			}
 		}
     }

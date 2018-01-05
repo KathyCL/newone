@@ -320,6 +320,15 @@
 		</div>
 	  
 		<div class="fui-cell-group fui-cell-click">
+          	<a class="fui-cell" href="http://xiangmai.j-zuo.net/app/index.php?i=5&c=entry&m=ewei_shopv2&do=mobile&r=commission">
+				<div class="fui-cell-icon"><i class="icon icon-fenxiao2"></i></div>
+              {php 	$level = m('member')->getLevel($_W['openid']);if($level['id']>0){}
+				<div class="fui-cell-text"><p>推广中心</p></div>
+              {php }else{}
+               <div class="fui-cell-text"><p>成为推广员</p></div>
+              {php };}
+				<div class="fui-cell-remark"></div>
+			</a>
 		    {if  $_W['shopset']['trade']['withdraw']==1}
 			<a class="fui-cell" href="{php echo mobileUrl('member/withdraw')}">
 				<div class="fui-cell-icon"><i class="icon icon-tixian"></i></div>

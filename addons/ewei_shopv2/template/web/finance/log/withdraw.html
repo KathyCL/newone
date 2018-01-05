@@ -177,6 +177,13 @@
                     {/if}
                     {/if}
 
+                    {if $row['applytype'] > 2}
+                    {ifp 'finance.log.bankback'}
+                    <li> <a data-toggle='ajaxPost' data-confirm="确认银行卡提现?" href="{php echo webUrl('finance/log/bankback',array('id' => $row['id']));}">银行卡提现</a>	</li>
+                    {/if}
+                    {/if}
+
+
                     {ifp 'finance.log.manual'}
                     <li><a data-toggle='ajaxPost' data-confirm="确认手动提现完成?" href="{php echo webUrl('finance/log/manual',array('id' => $row['id']));}">手动提现</a>	</li>
                     {/if}

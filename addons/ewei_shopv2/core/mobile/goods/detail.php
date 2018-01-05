@@ -12,11 +12,7 @@ class Detail_EweiShopV2Page extends MobilePage
         $openid = $_W['openid'];
 
         //wwz add
-        $member = m('member')->getMember($openid);
-        If (!empty($_W['shopset']['wap']['open']) && !empty($_W['shopset']['wap']['mustbind']) && empty($member['mobileverify'])) {
-            header('location: ' . mobileUrl('member/bind'));
-            exit();
-        }
+    
 
 
 		$uniacid = $_W['uniacid'];

@@ -11,11 +11,7 @@ class Index_EweiShopV2Page extends MobilePage
 		global $_GPC;
         //wwz add
         $openid = $_W['openid'];
-        $member = m('member')->getMember($openid);
-        If (!empty($_W['shopset']['wap']['open']) && !empty($_W['shopset']['wap']['mustbind']) && empty($member['mobileverify'])) {
-            header('location: ' . mobileUrl('member/bind'));
-            exit();
-        }
+      
 
 		$_SESSION['newstoreid'] = 0;
 		$this->diypage('home');
