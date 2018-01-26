@@ -14,25 +14,31 @@ function apiJson($code=0,$errorMsg='ok'){
     exit(json_encode($msg));
 }
 
-if(isset($_POST['id'])){
-    $goodsid=$_POST['id'];
+//接收参数
+
+$data=json_decode(file_get_contents('php://input'),true);
+
+//var_dump($data);exit;
+
+if(isset($data['productId'])){
+    $goodsid=$data['productId'];
 }else{
     apiJson(1,'请输入商品id');
 };
 
-if(isset($_POST['quantity'])){
+if(isset($data['quantity'])){
 
-    if(is_int($_POST['quantity']-0) && ($_POST['quantity']-0)>0){
+    if(is_int($data['quantity']-0) && ($data['quantity']-0)>0){
 
-//        var_dump($_POST['quantity']-0);exit;
-        if($_POST['quantity']<0){
+//        var_dump($data['quantity']-0);exit;
+        if($data['quantity']<0){
 
             apiJson(1,'商品库存数为正整数');
         }else{
 
-            $goodsnum=$_POST['quantity']-0;
+            $goodsnum=$data['quantity']-0;
 
-            var_dump($goodsnum);
+            //  var_dump($goodsnum);
         }
     }else{
         apiJson(1,'商品库存数为正整数');
@@ -43,8 +49,8 @@ if(isset($_POST['quantity'])){
 };
 
 $shopCode='0';
-if(isset($_POST['shopCode'])){
-    $shopCode=$_POST['shopCode'];
+if(isset($data['shopCode'])){
+    $shopCode=$data['shopCode'];
 }
 
 //更新数据库
@@ -53,7 +59,6 @@ if(pdo_update('ewei_shop_goods', array('total'=>$goodsnum), array('id' => $goods
 }else{
     apiJson(2,'数据错误');
 };
-
 
 
 

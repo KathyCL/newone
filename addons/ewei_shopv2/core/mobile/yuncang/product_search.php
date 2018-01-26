@@ -17,17 +17,21 @@ function apiJson($num,$product,$code=0,$error='ok'){
     exit(json_encode($msg));
 }
 
+//接收参数
+
+$data=json_decode(file_get_contents('php://input'),true);
+
 //1.接收订单code
-if(isset($_POST['ids'])){
-    $ids=explode(',',$_POST['ids']);//批量订单code转数组
+if(isset($data['ids'])){
+    $ids=explode(',',$data['ids']);//批量订单code转数组
 }
 
 //7.显示页数 必须
-if(!isset($_POST['page'])){
+if(!isset($data['page'])){
     apiJson(0,'',1,'显示页数参数错误');
 }else{
-    if(is_int($_POST['page']+0) && ($_POST['page']+0)>0){
-        $page=$_POST['page'];
+    if(is_int($data['page']+0) && ($data['page']+0)>0){
+        $page=$data['page'];
     }else{
         apiJson(0,'',1,'请输入整数页码');
     }
@@ -35,47 +39,47 @@ if(!isset($_POST['page'])){
 }
 
 //8.每页显示条数 必须
-if(!isset($_POST['pageSize'])){
+if(!isset($data['pageSize'])){
     apiJson(0,'',1,'每页显示条数参数错误');
 
 }else{
-    if(is_int($_POST['pageSize']+0)){
-        if($_POST['pageSize']<1 or $_POST['pageSize']>100){
+    if(is_int($data['pageSize']+0)){
+        if($data['pageSize']<1 or $data['pageSize']>100){
             apiJson(0,'',1,'每页显示条数请输入1~100的整数');
         }
-        $pageSize=$_POST['pageSize'];
+        $pageSize=$data['pageSize'];
     }else{
         apiJson(0,'',1,'请输入整数页码');
     }
 }
 
 //2.起始时间
-if(isset($_POST['startTime'])){
-    $starttime=strtotime($_POST['startTime']);//起始时间转时间戳
+if(isset($data['startTime'])){
+    $starttime=strtotime($data['startTime']);//起始时间转时间戳
     if($starttime==false){
         apiJson(0,'',1,'时间格式错误');
     }
 }
 
 //3.结束时间
-if(isset($_POST['endTime'])){
-    $endtime=strtotime($_POST['endTime']);//起始时间转时间戳
+if(isset($data['endTime'])){
+    $endtime=strtotime($data['endTime']);//起始时间转时间戳
     if($endtime==false){
         apiJson(0,'',1,'时间格式错误');
     }
 };
 
 //2.更新起始时间
-if(isset($_POST['startModified'])){
-    $startModified=strtotime($_POST['startModified']);//起始时间转时间戳
+if(isset($data['startModified'])){
+    $startModified=strtotime($data['startModified']);//起始时间转时间戳
     if($startModified==false){
         apiJson(0,'',1,'时间格式错误');
     }
 }
 
 //3.更新结束时间
-if(isset($_POST['endModified'])){
-    $endModified=strtotime($_POST['endModified']);//起始时间转时间戳
+if(isset($data['endModified'])){
+    $endModified=strtotime($data['endModified']);//起始时间转时间戳
 
     if($endModified==false){
         apiJson(0,'',1,'时间格式错误');
@@ -83,22 +87,22 @@ if(isset($_POST['endModified'])){
 };
 
 
-if(isset($_POST['status'])){
-    $status=$_POST['status']==2?0:$_POST['status'];
+if(isset($data['status'])){
+    $status=$data['status']==2?0:$data['status'];
 }
 
-if(isset($_POST['name'])){
-    $name=$_POST['name'];
+if(isset($data['name'])){
+    $name=$data['name'];
 }
 
 //拼条件
 
 $where='';
-if(isset($_POST['ids']) or isset($_POST['startTime']) or isset($_POST['endTime']) or isset($_POST['name']) or isset($_POST['status'])){
+if(isset($data['ids']) or isset($data['startTime']) or isset($data['endTime']) or isset($data['name']) or isset($data['status']) or isset($data['startModified']) or isset($data['endModified'])){
     $where.='where ';
 }
 $sn='';
-if(isset($_POST['ids'])){
+if(isset($data['ids'])){
     foreach ($ids as $k=>$v){
         $sn.='"'.$v.'",';
     }
@@ -106,7 +110,7 @@ if(isset($_POST['ids'])){
     $where.='goodssn in ('.$sn.')';
 }
 if(isset($starttime)){
-    if(isset($_POST['ids'])){
+    if(isset($data['ids'])){
         $where.=' and';
     }
     if(isset($endtime)){
@@ -119,9 +123,9 @@ if(isset($starttime)){
     }else{
         $where.=' createtime between '.$starttime.' and '.time();
     }
-}elseif(isset($_POST['endTime'])){
+}elseif(isset($data['endTime'])){
 
-    if($_POST['ids']){
+    if($data['ids']){
         $where.=' and';
     }
 
@@ -133,7 +137,7 @@ if(isset($starttime)){
 
 
 if(isset($startModified)){
-    if(isset($_POST['ids']) || isset($_POST['startTime']) || isset($_POST['endTime'])){
+    if(isset($data['ids']) || isset($data['startTime']) || isset($data['endTime'])){
         $where.=' and';
     }
     if(isset($endModified)){
@@ -146,22 +150,22 @@ if(isset($startModified)){
     }else{
         $where.=' updatetime between '.$startModified.' and '.time();
     }
-}elseif(isset($_POST['endModified'])){
+}elseif(isset($data['endModified'])){
 
-    if(isset($_POST['ids']) || isset($_POST['startTime']) || isset($_POST['endTime'])){
+    if(isset($data['ids']) || isset($data['startTime']) || isset($data['endTime'])){
         $where.=' and';
     }
 
     if(!$startModified){
-        $where.='createtime < '.$endModified;
+        $where.='updatetime < '.$endModified;
     }
 
 }
 
 
-if(isset($_POST['name'])){
+if(isset($data['name'])){
 
-    if(isset($_POST['ids']) || isset($_POST['startTime']) || isset($_POST['endTime']) || isset($_POST['startModified']) || isset($_POST['endModified'])){
+    if(isset($data['ids']) || isset($data['startTime']) || isset($data['endTime']) || isset($data['startModified']) || isset($data['endModified'])){
 
         $where.=' and title="'.$name.'"';
     }else{
@@ -171,9 +175,9 @@ if(isset($_POST['name'])){
 
 }
 
-if(isset($_POST['status'])) {
+if(isset($data['status'])) {
 
-    if (isset($_POST['ids']) || isset($_POST['startTime']) || isset($_POST['endTime']) || isset($_POST['startModified']) || isset($_POST['endModified']) || isset($_POST['name'])) {
+    if (isset($data['ids']) || isset($data['startTime']) || isset($data['endTime']) || isset($data['startModified']) || isset($data['endModified']) || isset($data['name'])) {
 
         $where .= ' and status=' .$status;
     }else{
@@ -196,10 +200,13 @@ foreach ($goods as $k=>$v){
 
     $skuinfo=pdo_fetchall('select * from '.tablename('ewei_shop_goods_option').'where goodsid=:goodsid',array(':goodsid'=>$v['id']));
 
-//    var_dump($skuinfo);exit;
     $sku=[
-        'skuid'=> $skuinfo[0]['skuId'],
-        'skuCode'=>$skuinfo[0]['productsn']
+        'skuId'=>$v['id'],
+        'skuCode'=>$v['goodssn'],
+        'stockNum'=>$v['total'],
+        'name'=>$v['title'],
+        'createdTime'=>date('Y-m-d H:i:s',$v['createtime']),
+        'modifiedTime'=>$v['updatetime']==0?'':date('Y-m-d H:i:s',$v['updatetime'])
     ];
 
     $product[$k]=[
@@ -210,12 +217,13 @@ foreach ($goods as $k=>$v){
         'status'=>$v['status']==0?'DOWN':'ON_SALE',
         'name'=>$v['title'],
         'createdTime'=>date('Y-m-d H:i:s',$v['createtime']),
-        'modifiedTime'=>$v['updatetime']==0?0:date('Y-m-d H:i:s',$v['updatetime']),
+        'modifiedTime'=>$v['updatetime']==0?'':date('Y-m-d H:i:s',$v['updatetime'])
 
-];
+    ];
 }
 
 //var_dump($goods);
 
 apiJson($num,$product,0,'ok');
+
 
